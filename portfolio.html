@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swetank Kumar - Portfolio</title>
+  <style>
+    /* Google Font */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top, #0f172a, #000);
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(180deg, rgba(15,23,42,0.9), rgba(0,0,0,0));
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #38bdf8; /* cyan */
+    }
+
+    header p {
+      color: #94a3b8;
+      margin-top: 0.5rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      background: #1e293b;
+      padding: 0.8rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #e2e8f0;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: #38bdf8;
+      border-bottom: 2px solid #38bdf8;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .card {
+      background: #1e293b;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #0f172a;
+      color: #94a3b8;
+      font-size: 0.9rem;
+    }
+
+    .contact-links a {
+      display: inline-block;
+      margin-right: 1rem;
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    .contact-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Swetank Kumar</h1>
+    <p>Email: sk2737@srmist.edu.in | Phone: +91 9508909720</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <div class="card">
+        <p>
+          I am Swetank — a motivated student with a strong background in quizzing, 
+          problem-solving and project work in sustainability and productivity tools. 
+          I enjoy building apps that help people learn and track progress.
+        </p>
+        <h3>Skills</h3>
+        <ul>
+          <li>C, C++, Python</li>
+          <li>React, Node.js</li>
+          <li>Quiz Content Design, Event Hosting</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="card">President – Quiz Club (2023–2024) @ APS Danapur Cantt</div>
+      <div class="card">Mathematics Captain – Student Council (2022–2023) @ APS Danapur Cantt</div>
+      <div class="card">Co-Founder – Jigyasa Quiz Club (2020–Present)</div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="card">Eco SRM – Carbon Footprint Tracker (React Native / Flutter / Python)</div>
+      <div class="card">Ayursutra – Scheduling Software (React / Node.js / Firebase / SQL)</div>
+      <div class="card">AI Study Planner Assistant (Python / NLP / Machine Learning)</div>
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <div class="card">
+        <h3>Quizzing</h3>
+        <ul>
+          <li>Runner-up, Inter APS National Quiz</li>
+          <li>Semi-Finalist, Ultimate Sports Quiz (TV Show)</li>
+          <li>Champion — Questopedia, Astro Quiz, and more</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Academics</h3>
+        <ul>
+          <li>International Rank 5 – CREST Mathematics Olympiad</li>
+          <li>IOQM Merit Awardee</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Sports</h3>
+        <ul>
+          <li>Cluster Champion – Football</li>
+          <li>State Champion – Karate</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card contact-links">
+        <a href="mailto:sk2737@srmist.edu.in">Email Me</a>
+        <a href="tel:+919508909720">Call Me</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Swetank Kumar — Built with 💙</p>
+  </footer>
+
+</body>
+</html>
